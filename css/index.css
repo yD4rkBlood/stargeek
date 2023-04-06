@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+break-line {
+    white-space: pre-line;
+}
+
+.header {
+    display: flex;
+}
+
+.header-text {
+    position: absolute;
+    width: 354px;
+    height: 64px;
+    left: 218px;
+    top: 14px;
+    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: black;
+    font-size: 33px;
+    float: left;
+}
+
+.header-text:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    margin: 0 auto;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.flex3 {
+    margin-left: 100px;
+}
+
+.flex4 {
+    margin-left: 100px;
+    float: left;
+}
+
+.back1 {
+    background-image: url(/img/Purple\ galaxy\ dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 1px 10px black;
+    height: 760px;
+    background-size: cover;
+}
+
+.back-text1 {
+    color: white;
+    font-size: 64px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 40px;
+}
+
+.back-text2 {
+    color: white;
+    font-size: 64px;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+}
+
+.back-text3 {
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.back-text4 {
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.back2 {
+    background-image: url(/img/Purple\ galaxy\ dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 1px 10px black;
+    height: 760px;
+    background-size: cover;
+}
+
+.back-text5 {
+    color: white;
+    font-size: 64px;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 60px;
+}
+
+.back-text6 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.back3 {
+    background-image: url(/img/Purple\ galaxy\ dark.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 1px 10px black;
+    height: 760px;
+    background-size: cover;
+}
+
+.botao {
+    width: 200px;
+    height: 47px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(192, 0, 192);
+    border: 0;
+    color: white;
+    font-size: 25px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.botao2 {
+    width: 230px;
+    height: 63px;
+    border-radius: 10px;
+    background-color: rgb(192, 0, 192);
+    border: 0;
+    color: white;
+    font-size: 27px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 60px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.email {
+    width: 457px;
+    height: 63px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin-top: 60px;
+    color: white;
+    font-size: 27px;
+    text-shadow: 1px 1px 1px black;
+    padding-left: 10px;
+    float: left;
+}
+
+::placeholder {
+    color: white;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.gif {
+    background-image: url(/img/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 40px;
+    float: left;
+}
+
+.phone {
+    background-image: url(/img/kindpng_6805458.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 390px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    float: right;
+}
+
+.catalogos {
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: left;
+}
+
+.tv {
+    background-image: url(/img/TV-PNG-HD-Quality.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 490px;
+    margin-top: 20px;
+    margin-left: 100px;
+    float: right;
+    margin-left: 250px;
+}

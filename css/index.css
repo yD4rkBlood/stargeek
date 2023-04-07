@@ -6,6 +6,9 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/img/Purple\ galaxy\ dark.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 break-line {
@@ -17,18 +20,11 @@ break-line {
 }
 
 .header-text {
-    position: absolute;
-    width: 354px;
-    height: 64px;
-    left: 218px;
-    top: 14px;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: black;
-    font-size: 33px;
-    float: left;
+    text-decoration: none;
+    font-size: 3.5vh;
+    color: rgb(172, 0, 172);
+    margin-top: 1vh;
+    height: 100%;
 }
 
 .header-text:hover {
@@ -41,48 +37,43 @@ break-line {
     margin: 0 auto;
 }
 
-.flex {
+.container {
     display: flex;
     margin: 0 auto;
 }
 
-.flex2 {
+.container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 
-.flex3 {
-    margin-left: 100px;
+.container3 {
+    margin-left: 5vw;
 }
 
-.flex4 {
-    margin-left: 100px;
+.container4 {
+    margin-left: 5vw;
     float: left;
 }
 
 .back1 {
-    background-image: url(/img/Purple\ galaxy\ dark.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    box-shadow: 3px 5px 1px 10px black;
     height: 760px;
-    background-size: cover;
 }
 
 .back-text1 {
     color: white;
     font-size: 64px;
     text-shadow: 1px 1px 1px black;
-    margin-top: 40px;
+    margin-top: 8vh;
 }
 
 .back-text2 {
     color: white;
     font-size: 64px;
     text-shadow: 1px 1px 1px black;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .back-text3 {
@@ -91,41 +82,24 @@ break-line {
     text-shadow: 1px 1px 1px black;
 }
 
-.back-text4 {
-    color: white;
-    font-size: 22px;
-    text-shadow: 1px 1px 1px black;
-}
-
 .back2 {
-    background-image: url(/img/Purple\ galaxy\ dark.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    box-shadow: 3px 5px 1px 10px black;
     height: 760px;
-    background-size: cover;
 }
 
-.back-text5 {
+.back-text4 {
     color: white;
     font-size: 64px;
     text-shadow: 1px 1px 1px black;
-    padding-top: 60px;
 }
 
-.back-text6 {
+.back-text5 {
     color: white;
     font-size: 30px;
     text-shadow: 1px 1px 1px black;
 }
 
 .back3 {
-    background-image: url(/img/Purple\ galaxy\ dark.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    box-shadow: 3px 5px 1px 10px black;
     height: 760px;
-    background-size: cover;
 }
 
 .botao {
@@ -138,12 +112,12 @@ break-line {
     color: white;
     font-size: 25px;
     float: right;
-    margin-right: 40px;
-    margin-top: 20px;
+    margin-right: 2vw;
+    margin-top: 2vh;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 0.5vh;
 }
 
 .botao2 {
@@ -155,11 +129,11 @@ break-line {
     color: white;
     font-size: 27px;
     text-shadow: 1px 1px 1px black;
-    margin-top: 60px;
-    margin-left: 20px;
+    margin-top: 6vh;
+    margin-left: 1.5vw;
     text-decoration: none;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 1vh;
 }
 
 .email {
@@ -168,18 +142,17 @@ break-line {
     border: 0;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
-    margin-top: 60px;
+    margin-top: 6vh;
     color: white;
     font-size: 27px;
     text-shadow: 1px 1px 1px black;
-    padding-left: 10px;
     float: left;
 }
 
 ::placeholder {
     color: white;
     font-size: 22px;
-    padding-left: 15px;
+    padding-left: 2vw;
 }
 
 .gif {
@@ -188,8 +161,8 @@ break-line {
     background-size: cover;
     width: 450px;
     height: 350px;
-    margin-top: 40px;
-    margin-left: 100px;
+    margin-top: 5vh;
+    margin-left: 5vw;
     border-radius: 40px;
     float: left;
 }
@@ -200,14 +173,13 @@ break-line {
     background-size: cover;
     width: 350px;
     height: 390px;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 3vh;
+    margin-right: 5vw;
     float: right;
 }
 
 .catalogos {
-    margin-top: 100px;
+    margin-top: 10vh;
     flex-direction: row;
     justify-content: space-evenly;
     float: left;
@@ -219,8 +191,7 @@ break-line {
     background-size: cover;
     width: 500px;
     height: 490px;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 20vh;
+    margin-right: 5vw;
     float: right;
-    margin-left: 250px;
 }

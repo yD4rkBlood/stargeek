@@ -2,21 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins, sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
     background-image: url(../img/Purple\ galaxy\ dark.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} 
 
-.header {
-    display: flex;
-}
-
-.header-text {
+.loja-text {
     position: absolute;
     width: 354px;
     height: 64px;
@@ -30,7 +28,7 @@ body {
     font-size: 33px;
 }
 
-.header-text:hover {
+.loja-text:hover {
     transition: 300ms;
     transform: scale(1.1);
 }

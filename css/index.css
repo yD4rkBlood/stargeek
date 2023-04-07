@@ -2,24 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Poppins, sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(/img/Purple\ galaxy\ dark.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-break-line {
-    white-space: pre-line;
-}
-
-.header {
-    display: flex;
-}
-
-.header-text {
+.loja-text {
     text-decoration: none;
     font-size: 3.5vh;
     color: rgb(172, 0, 172);
@@ -27,7 +21,7 @@ break-line {
     height: 100%;
 }
 
-.header-text:hover {
+.loja-text:hover {
     transition: 300ms;
     transform: scale(1.1);
 }
@@ -64,21 +58,21 @@ break-line {
 
 .back-text1 {
     color: white;
-    font-size: 64px;
+    font-size: 4em;
     text-shadow: 1px 1px 1px black;
     margin-top: 8vh;
 }
 
 .back-text2 {
     color: white;
-    font-size: 64px;
+    font-size: 4em;
     text-shadow: 1px 1px 1px black;
     margin-bottom: 2vh;
 }
 
 .back-text3 {
     color: white;
-    font-size: 22px;
+    font-size: 1.5em;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -88,13 +82,13 @@ break-line {
 
 .back-text4 {
     color: white;
-    font-size: 64px;
+    font-size: 4em;
     text-shadow: 1px 1px 1px black;
 }
 
 .back-text5 {
     color: white;
-    font-size: 30px;
+    font-size: 1.7em;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -103,48 +97,62 @@ break-line {
 }
 
 .botao {
-    width: 200px;
-    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 10vw;
+    height: 6vh;
     margin: 0 auto;
     border-radius: 10px;
     background-color: rgb(192, 0, 192);
     border: 0;
     color: white;
-    font-size: 25px;
+    font-size: 1.5em;
     float: right;
     margin-right: 2vw;
     margin-top: 2vh;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
-    text-align: center;
-    padding-top: 0.5vh;
+}
+
+.botao:hover {
+    transition: 300ms;
+    transform: scale(1.1);
 }
 
 .botao2 {
-    width: 230px;
-    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 6vh;
     border-radius: 10px;
     background-color: rgb(192, 0, 192);
     border: 0;
     color: white;
-    font-size: 27px;
+    font-size: 1.6em;
     text-shadow: 1px 1px 1px black;
     margin-top: 6vh;
     margin-left: 1.5vw;
     text-decoration: none;
     text-align: center;
-    padding-top: 1vh;
+}
+
+.botao2:hover {
+    transition: 300ms;
+    transform: scale(1.1);
 }
 
 .email {
-    width: 457px;
-    height: 63px;
+    width: 27vw;
+    height: 6vh;
     border: 0;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     margin-top: 6vh;
     color: white;
-    font-size: 27px;
+    font-size: 1.7em;
     text-shadow: 1px 1px 1px black;
     float: left;
 }

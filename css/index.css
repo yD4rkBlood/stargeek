@@ -203,3 +203,11 @@ body {
     margin-right: 5vw;
     float: right;
 }
+
+hr {
+    border: 0;
+    height: 0.5vh;
+    background: rgb(248, 0, 232);
+    background: linear-gradient(90deg, rgba(248, 0, 232, 0.1516981792717087) 0%, rgba(166, 0, 255, 1) 50%, rgba(255, 0, 232, 0.14889705882352944) 100%);
+    margin-bottom: 10vh;
+}

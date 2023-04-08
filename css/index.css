@@ -155,12 +155,12 @@ body {
     font-size: 1.7em;
     text-shadow: 1px 1px 1px black;
     float: left;
+    padding-left: 2vw;
 }
 
 ::placeholder {
     color: white;
     font-size: 22px;
-    padding-left: 2vw;
 }
 
 .gif {

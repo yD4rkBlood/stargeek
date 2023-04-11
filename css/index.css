@@ -176,7 +176,7 @@ body {
 }
 
 .phone {
-    background-image: url(/img/kindpng_6805458.png);
+    background-image: url(/img/Phone.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 350px;
@@ -186,22 +186,22 @@ body {
     float: right;
 }
 
+.tv {
+    background-image: url(/img/TV.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 390px;
+    margin-top: 20vh;
+    margin-right: 5vw;
+    float: right;
+}
+
 .catalogos {
     margin-top: 10vh;
     flex-direction: row;
     justify-content: space-evenly;
     float: left;
-}
-
-.tv {
-    background-image: url(/img/TV-PNG-HD-Quality.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 490px;
-    margin-top: 20vh;
-    margin-right: 5vw;
-    float: right;
 }
 
 hr {

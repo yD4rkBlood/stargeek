@@ -68,7 +68,7 @@ body {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
     border: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .input-box>.password {
@@ -101,11 +101,6 @@ body {
     padding-left: 10px;
 }
 
-.text:hover {
-    transition: 300ms;
-    transform: scale(1.1);
-}
-
 .password {
     margin-bottom: 20px;
     color: white;
@@ -114,14 +109,28 @@ body {
     padding-left: 10px;
 }
 
-.confirm-password {
-    margin-bottom: 20px;
-    color: white;
-    font-size: 23px;
-    text-shadow: 1px 1px 1px black;
-    padding-left: 10px;
+.text:hover {
+    transition: 300ms;
+    transform: scale(1.1);
 }
 
+.checkbox {
+    margin-right: 10px;
+    width: 25px;
+}
+
+.lembre {
+    display: flex;
+    margin-left: 73px;
+    color: white;
+    font-size: 20px;
+    float: left;
+    text-shadow: 1px 1px 1px black;
+}
+
+.lembre>a:hover {
+    text-decoration: underline;
+}
 
 .lembre>a {
     text-decoration: none;
@@ -130,26 +139,11 @@ body {
     margin-left: 120px;
 }
 
-.confirm-password {
-    width: 317px;
-    height: 72px;
-    margin: 0 auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    border-radius: 10px;
-    border: 0;
-    margin-bottom: 15px;
-}
-
-.confirm-password:hover {
-    transition: 300ms;
-    transform: scale(1.1);
-}
-
 .botao {
     width: 200px;
     height: 47px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 60px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
     border: 0;
@@ -166,7 +160,8 @@ body {
     transform: scale(1.1);
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     color: #ffffff;
     font-size: 20px;
     padding-left: 10px;

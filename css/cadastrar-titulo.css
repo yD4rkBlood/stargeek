@@ -12,7 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-} 
+}
 
 .loja-text {
     position: absolute;
@@ -37,7 +37,7 @@ body {
     box-sizing: border-box;
     position: absolute;
     width: 458px;
-    height: 487px;
+    height: 687px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, rgba(255, 0, 245, 0.6) 0%, rgba(215, 0, 250, 0.6) 80.08%, rgba(143, 0, 255, 0.6) 100%);
     border: 1px solid #f700ff93;
     border-radius: 25px;
@@ -51,7 +51,7 @@ body {
     color: white;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 48px;
     text-shadow: 1px 1px 1px black;
 }
@@ -68,17 +68,18 @@ body {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
     border: 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .input-box>.password {
     width: 317px;
-    height: 72px;
+    height: 120px;
     margin: 0 auto;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
     border: 0;
     margin-bottom: 15px;
+    padding-left: 10px;
 }
 
 .input-box>.password:hover {
@@ -101,31 +102,24 @@ body {
     padding-left: 10px;
 }
 
-.password {
-    margin-bottom: 20px;
-    color: white;
-    font-size: 23px;
-    text-shadow: 1px 1px 1px black;
-    padding-left: 10px;
-}
-
 .text:hover {
     transition: 300ms;
     transform: scale(1.1);
 }
 
-.checkbox {
-    margin-right: 10px;
-    width: 25px;
+.password {
+    color: white;
+    font-size: 23px;
+    text-shadow: 1px 1px 1px black;
+    padding-left: t 10px;
 }
 
-.lembre {
-    display: flex;
-    margin-left: 73px;
+.confirm-password {
+    margin-bottom: 20px;
     color: white;
-    font-size: 20px;
-    float: left;
+    font-size: 23px;
     text-shadow: 1px 1px 1px black;
+    padding-left: 10px;
 }
 
 .lembre>a {
@@ -135,16 +129,34 @@ body {
     margin-left: 120px;
 }
 
+.confirm-password {
+    width: 317px;
+    height: 120px;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.confirm-password:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+}
+
 .botao {
     width: 200px;
     height: 47px;
     margin: 0 auto;
-    margin-top: 60px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
     border: 0;
     color: white;
     font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    line-height: 47px;
 }
 
 .botao:hover {
@@ -152,8 +164,45 @@ body {
     transform: scale(1.1);
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     color: #ffffff;
     font-size: 20px;
     padding-left: 10px;
+}
+
+.input-box>p {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 1vh;
+}
+
+main {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    padding: 20px 10px;
+    width: 200px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+label:hover {
+    transition: 300ms;
+    transform: scale(1.1);
 }

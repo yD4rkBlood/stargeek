@@ -16,16 +16,13 @@ body {
 
 .loja-text {
     position: absolute;
-    width: 354px;
-    height: 64px;
-    left: 218px;
-    top: 14px;
     background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-shadow: black;
-    font-size: 33px;
+    font-size: 35px;
+    margin-top: 2vw;
 }
 
 .loja-text:hover {

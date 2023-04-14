@@ -15,16 +15,13 @@ body {
 
 .loja-text {
     position: absolute;
-    width: 354px;
-    height: 64px;
-    left: 218px;
-    top: 14px;
     background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-shadow: black;
-    font-size: 33px;
+    font-size: 35px;
+    margin-top: 2vw;
 }
 
 .loja-text:hover {
@@ -34,11 +31,6 @@ body {
 
 .center {
     text-align: center;
-    margin: 0 auto;
-}
-
-.container {
-    display: flex;
     margin: 0 auto;
 }
 
@@ -111,7 +103,7 @@ body {
     height: 6vh;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: rgb(192, 0, 192);
+    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border: 0;
     color: white;
     font-size: 1.5em;
@@ -134,7 +126,7 @@ body {
     width: 10vw;
     height: 6vh;
     border-radius: 10px;
-    background-color: rgb(192, 0, 192);
+    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border: 0;
     color: white;
     font-size: 1.6em;

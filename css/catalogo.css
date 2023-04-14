@@ -5,6 +5,43 @@
     font-family: Poppins, sans-serif;
 }
 
+@media (max-width: 1024px) {
+    header {
+        margin-bottom: 35vw;
+    }
+
+    header> .top-text > .botao {
+        width: 30vw;
+        height: 15vw;
+        font-size: 5vw;
+        margin-top: 15vw;
+    }
+
+    header>.loja-text {
+        font-size: 6vw;
+        margin-left: 4vw;
+    }
+
+    header>.logo {
+        width: 25vw;
+    }
+
+    header>.top-text>p {
+        font-size: 4vw
+    }
+
+    header>.davy {
+        width: 18vw;
+        height: 18vw;
+        margin-top: 15vw;
+        margin-right: 20vw;
+    }
+
+    main>hr {
+        height: 0.4vw;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
@@ -15,25 +52,23 @@ body {
 }
 
 header {
-    height: 19vh;
+    height: 11vw;
 }
 
 .logo {
     float: left;
+    width: 12vw;
 }
 
 .loja-text {
     position: absolute;
-    width: 354px;
-    height: 64px;
-    left: 218px;
-    top: 14px;
     background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-shadow: black;
-    font-size: 33px;
+    font-size: 2.2vw;
+    margin-top: 2vw;
 }
 
 .loja-text:hover {
@@ -43,8 +78,8 @@ header {
 
 .davy {
     background-image: url(/img/davyjones.jpg);
-    width: 120px;
-    height: 120px;
+    width: 6vw;
+    height: 6vw;
     background-size: cover;
     float: right;
     border-radius: 15px;
@@ -58,15 +93,15 @@ header {
     justify-content: center;
     text-align: center;
     width: 14vw;
-    height: 7vh;
+    height: 4vw;
     border-radius: 10px;
-    background-color: rgb(192, 0, 192);
+    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border: 0;
     color: white;
-    font-size: 1.5em;
     float: right;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 .botao:hover {
@@ -78,8 +113,8 @@ header {
     color: white;
     float: right;
     margin: 0 auto;
-    margin-top: 2vh;
-    font-size: 1.5em;
+    margin-top: 2vw;
+
 }
 
 .top-text {
@@ -87,23 +122,35 @@ header {
     flex-direction: column;
     float: right;
     margin-right: 3vw;
-    margin-top: 4vh;
+    margin-top: 2vw;
+    font-size: 1.5vw;
 }
 
 .content {
-    width: 1400px;
+    width: 90vw;
+    height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 3vh;
+    margin-top: 2vw;
 }
 
 .content>img {
-    margin-left: 1.2vw;
+    margin-left: 20px;
+    width: 50%;
+    border-radius: 10px;
 }
 
 .content>img:hover {
     transition: 300ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+.content-text {
+    color: white;
+    font-size: 25px;
+    margin-top: 5vh;
+    margin-left: 1.6vw;
+    font-weight: bold;
 }
 
 main {
@@ -117,45 +164,10 @@ main {
 
 hr {
     border: 0;
-    height: 0.5vh;
+    width: 91vw;
+    height: 0.2vw;
     background: rgb(248, 0, 232);
     background: linear-gradient(90deg, rgba(248, 0, 232, 0.1516981792717087) 0%, rgba(166, 0, 255, 1) 50%, rgba(255, 0, 232, 0.14889705882352944) 100%);
     margin-top: 5vh;
     margin-bottom: 5vh;
-}
-
-.content-text {
-    color: white;
-    font-size: 1.5em;
-    margin-top: 5vh;
-    margin-left: 1.6vw;
-    font-weight: bold;
-}
-
-.scroll-arrow-right {
-    width: 0;
-    height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid #ff00e6;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    float: right;
-    margin-top: 5.2vh;
-}
-
-.scroll-arrow-left {
-    width: 0;
-    height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-right: 20px solid #ff00e6;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    float: left;
-    margin-top: 5.2vh;
 }

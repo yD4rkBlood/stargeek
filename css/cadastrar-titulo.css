@@ -16,16 +16,14 @@ body {
 
 .loja-text {
     position: absolute;
-    width: 354px;
-    height: 64px;
-    left: 218px;
-    top: 14px;
     background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-shadow: black;
-    font-size: 33px;
+    font-size: 35px;
+    margin-top: 2vw;
+    
 }
 
 .loja-text:hover {
@@ -71,7 +69,7 @@ body {
     margin-bottom: 15px;
 }
 
-.input-box>.password {
+.input-box>.text2 {
     width: 317px;
     height: 120px;
     margin: 0 auto;
@@ -82,7 +80,7 @@ body {
     padding-left: 10px;
 }
 
-.input-box>.password:hover {
+.input-box>.text2:hover {
     transition: 300ms;
     transform: scale(1.1);
 }
@@ -107,19 +105,11 @@ body {
     transform: scale(1.1);
 }
 
-.password {
+.text2 {
     color: white;
     font-size: 23px;
     text-shadow: 1px 1px 1px black;
     padding-left: t 10px;
-}
-
-.confirm-password {
-    margin-bottom: 20px;
-    color: white;
-    font-size: 23px;
-    text-shadow: 1px 1px 1px black;
-    padding-left: 10px;
 }
 
 .lembre>a {
@@ -129,7 +119,7 @@ body {
     margin-left: 120px;
 }
 
-.confirm-password {
+.text3 {
     width: 317px;
     height: 120px;
     margin: 0 auto;
@@ -137,9 +127,14 @@ body {
     border-radius: 10px;
     border: 0;
     margin-bottom: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 23px;
+    text-shadow: 1px 1px 1px black;
+    padding-left: 10px;
 }
 
-.confirm-password:hover {
+.text3:hover {
     transition: 300ms;
     transform: scale(1.1);
 }

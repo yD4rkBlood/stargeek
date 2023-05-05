@@ -44,7 +44,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
-    background-image: url(img/Purple\ galaxy\ dark.jpg);
+    background-image: url(../img/Purple\ galaxy\ dark.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ header {
 }
 
 .davy {
-    background-image: url(img/davyjones.jpg);
+    background-image: url(../img/davyjones.jpg);
     width: 6vw;
     height: 6vw;
     background-size: cover;

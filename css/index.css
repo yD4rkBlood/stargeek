@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
-    background-image: url(img/Purple\ galaxy\ dark.jpg);
+    background-image: url(../img/Purple\ galaxy\ dark.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -162,7 +162,7 @@ body {
 }
 
 .gif {
-    background-image: url(img/giphy.gif);
+    background-image: url(../img/giphy.gif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 450px;
@@ -174,7 +174,7 @@ body {
 }
 
 .phone {
-    background-image: url(img/Phone.png);
+    background-image: url(../img/Phone.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 350px;
@@ -185,7 +185,7 @@ body {
 }
 
 .tv {
-    background-image: url(img/TV.png);
+    background-image: url(../img/TV.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 600px;

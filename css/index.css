@@ -5,12 +5,119 @@
     font-family: Poppins, sans-serif;
 }
 
+@media screen and (max-width: 1024px) {
+    body>.back1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    body>.back2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    body>.back3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center
+    }
+
+    .back1>.botao {
+        margin: 0;
+    }
+
+    .back1>.container2 {
+        display: flex;
+        flex-direction: column
+    }
+
+    .container2>.email {
+        width: 300px
+    }
+
+    .back1>.logo {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .back2>.gif {
+        width: 60%;
+        height: 60%;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .back2>.phone {
+        width: 60%;
+        height: 60%;
+        margin: 0;
+    }
+
+    .container4>.catalogos>img {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    .back1>.back-text1 {
+        font-size: 40px;
+    }
+
+    .back1>.back-text2 {
+        font-size: 40px;
+    }
+
+    .back1>.back-text3 {
+        font-size: 20px;
+    }
+
+    .container3>.back-text4 {
+        font-size: 40px;
+    }
+
+    .container3>.back-text5 {
+        font-size: 20px;
+    }
+
+    .back2>.container3 {
+        margin: 0;
+    }
+
+    .container4>.back-text4 {
+        font-size: 40px
+    }
+
+    .container4>.back-text5 {
+        font-size: 20px
+    }
+
+    body>.back3>img {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        margin-top: 40px
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
     background-image: url(../img/Purple\ galaxy\ dark.jpg);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 
 .loja-text {
@@ -39,6 +146,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .container3 {
@@ -51,7 +159,7 @@ body {
 }
 
 .back1 {
-    height: 760px;
+    height: 100%;
 }
 
 .back-text1 {
@@ -75,7 +183,8 @@ body {
 }
 
 .back2 {
-    height: 760px;
+    height: 100%;
+    margin-bottom: 60px;
 }
 
 .back-text4 {
@@ -91,7 +200,8 @@ body {
 }
 
 .back3 {
-    height: 760px;
+    height: 100%;
+    margin-bottom: 60px;
 }
 
 .botao {
@@ -99,16 +209,16 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 10vw;
-    height: 6vh;
+    width: 160px;
+    height: 60px;
     margin: 0 auto;
     border-radius: 10px;
     background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border: 0;
     color: white;
     font-size: 1.5em;
+    margin-right: 60px;
     float: right;
-    margin-right: 2vw;
     margin-top: 2vh;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
@@ -123,8 +233,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10vw;
-    height: 6vh;
+    width: 160px;
+    height: 60px;
     border-radius: 10px;
     background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border: 0;
@@ -143,8 +253,8 @@ body {
 }
 
 .email {
-    width: 27vw;
-    height: 6vh;
+    width: 400px;
+    height: 60px;
     border: 0;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
@@ -162,47 +272,39 @@ body {
 }
 
 .gif {
-    background-image: url(../img/giphy.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 450px;
     height: 350px;
-    margin-top: 5vh;
-    margin-left: 5vw;
+    margin-top: 40px;
+    margin-left: 40px;
     border-radius: 40px;
+    margin-left: 100px;
     float: left;
 }
 
 .phone {
-    background-image: url(../img/Phone.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 350px;
     height: 390px;
-    margin-top: 3vh;
-    margin-right: 5vw;
+    margin-top: 20px;
+    margin-right: 40px;
     float: right;
 }
 
 .tv {
-    background-image: url(../img/TV.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 600px;
     height: 390px;
-    margin-top: 20vh;
-    margin-right: 5vw;
+    margin-right: 60px;
+    margin-top: 60px;
     float: right;
 }
 
 .catalogos {
-    margin-top: 10vh;
+    margin-top: 60px;
     flex-direction: row;
     justify-content: space-evenly;
-    float: left;
 }
 
 hr {
+    width: 100%;
     border: 0;
     height: 0.5vh;
     background: rgb(248, 0, 232);

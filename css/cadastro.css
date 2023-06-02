@@ -7,6 +7,58 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
+@media screen and (max-width: 780px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body>.login-container {
+        width: 370px;
+        margin-top: 80px;
+    }
+
+    body>.header>.loja-text {
+        font-size: 25px;
+    }
+
+    .header>a>.logo {
+        width: 150px;
+    }
+
+    .login-container>.input-box>input {
+        width: 70%;
+    }
+
+    .input-box>.lembre {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    body>.login-container {
+        width: 370px;
+        margin-top: 80px;
+    }
+
+    .header>.loja-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body>.login-container {
+        width: 270px;
+        margin-top: 80px;
+    }
+
+    .header>.loja-text {
+        font-size: 20px;
+    }
+}
+
 body {
     background-image: url(../img/Purple\ galaxy\ dark.jpg);
     background-size: cover;
@@ -27,14 +79,13 @@ body {
 
 .loja-text:hover {
     transition: 300ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .login-container {
     box-sizing: border-box;
     position: absolute;
-    width: 458px;
-    height: 487px;
+    width: 480px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, rgba(255, 0, 245, 0.6) 0%, rgba(215, 0, 250, 0.6) 80.08%, rgba(143, 0, 255, 0.6) 100%);
     border: 1px solid #f700ff93;
     border-radius: 25px;
@@ -80,7 +131,7 @@ body {
 
 .input-box>.password:hover {
     transition: 300ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 ::placeholder {
@@ -100,7 +151,7 @@ body {
 
 .text:hover {
     transition: 300ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .password {
@@ -139,13 +190,14 @@ body {
 
 .confirm-password:hover {
     transition: 300ms;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .botao {
     width: 200px;
     height: 47px;
     margin: 0 auto;
+    margin-bottom: 30px;
     margin-top: 30px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
@@ -167,4 +219,37 @@ textarea:focus, input:focus {
     color: #ffffff;
     font-size: 20px;
     padding-left: 10px;
+}
+
+.login-container> .vazios {
+    font-size: 20px;
+}
+
+.vazio {
+    color: rgb(255, 38, 38);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resultado {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+}
+
+.login {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+.login:hover{
+    text-decoration: underline;
+}
+
+.bem-vindo {
+    color: rgb(0, 224, 0);
+    font-size: 23px;
+    margin-bottom: 20px;
 }

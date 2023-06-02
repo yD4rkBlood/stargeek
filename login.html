@@ -10,37 +10,47 @@
     <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="icon" href="img/favicon-32x32.png" type="favicon">
+    <script defer src="js/login.js"></script>
 
 
 </head>
 
 <body>
 
-    <a href="index.html"><img class="logo" src="img/Logo.png"></a>
+    <div class="header">
 
-    <a href="loja.html" class="loja-text">Conheça Nossa Loja</a>
+        <a href="index.html"><img class="logo" src="img/Logo.png"></a>
+
+        <a href="loja.html" class="loja-text">Conheça Nossa Loja</a>
+
+    </div>
 
     <div class="login-container">
+
+        <p class="vazios" id="vazio"></p>
 
         <p>Login</p>
 
         <div class="input-box">
 
-            <input class="text" type="text" placeholder="Endereço de Email" </div>
+            <input class="text" type="text" id="usuario" placeholder="Usuario">
 
-            <input class="password" type="password" placeholder="Senha" </div>
+            <input class="password" type="password" id="senha" placeholder="Senha">
+
 
             <div class="lembre">
-
-                <input class="checkbox" type="checkbox">
-
-                <label for="myCheckbox">Lembrar</label>
 
                 <a href="cadastro.html">Cadastrar</a>
 
             </div>
 
-            <a href="catalogo.html" class="botao">Confirmar</a>
+            <button onclick="Confirmar()" class="botao">Confirmar</button>
+
+            <p id="resultado" class="resultado"></p>
+
+        </div>
+
+    </div>
 
 </body>
 

@@ -10,14 +10,19 @@
     <title>Cadastre Um Título</title>
     <link rel="stylesheet" href="css/cadastrar-titulo.css">
     <link rel="icon" href="img/favicon-32x32.png" type="favicon">
+    <script defer src="js/cadastrar-titulo.js"></script>
 
 </head>
 
 <body>
 
-    <a href="index.html"><img class="logo" src="img/Logo.png"></a>
+    <div class="header">
 
-    <a href="loja.html" class="loja-text">Conheça Nossa Loja</a>
+        <a href="index.html"><img class="logo" src="img/Logo.png"></a>
+
+        <a href="loja.html" class="loja-text">Conheça Nossa Loja</a>
+
+    </div>
 
     <div class="login-container">
 
@@ -29,26 +34,21 @@
 
                 <p>Nome do Título</p>
 
-                <input class="text" type="text" </div>
+                <input class="text" id="nome" type="text">
 
                 <p>Resumo</p>
 
-                <input class="text2" type="text" </div>
+                <textarea id="resumo"></textarea>
 
-                <p>Crítica</p>
+                <p>Link Da Imagem</p>
 
-                <input class="text3" type="text"></input>
+                <input class="text" type="text" id="imagem">
 
-                <label for="arquivo">Foto Do Título</label>
+                <button onclick="AdicionarMidia()" class="botao">Confirmar</button>
 
-                <a href="catalogo.html" class="botao">Confirmar</a>
-
-                <input type="file" name="arquivo" id="arquivo">
-
-
+            </div>
 
         </main>
-
 
 </body>
 

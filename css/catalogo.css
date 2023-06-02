@@ -10,7 +10,7 @@
         margin-bottom: 35vw;
     }
 
-    header> .top-text > .botao {
+    header>.top-text>.botao {
         width: 30vw;
         height: 15vw;
         font-size: 5vw;
@@ -21,7 +21,7 @@
         font-size: 6vw;
     }
 
-    header> a > .logo {
+    header>a>.logo {
         width: 25vw;
     }
 
@@ -86,6 +86,29 @@ header {
     margin-right: 2vw;
 }
 
+.seta1 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid purple;
+    margin-right: 30px;
+}
+
+.seta2 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid purple;
+    margin-left: 30px;
+}
+
+.container-seta {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .botao {
     display: flex;
     align-items: center;
@@ -130,7 +153,7 @@ header {
     height: 100%;
     display: flex;
     overflow-x: auto;
-    margin-top: 2vw;
+    margin-top: 20px;
 }
 
 .content>img {

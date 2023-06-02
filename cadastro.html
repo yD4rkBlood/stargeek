@@ -10,29 +10,42 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="css/cadastro.css">
     <link rel="icon" href="img/favicon-32x32.png" type="favicon">
+    <script defer src="js/cadastro.js"></script>
 
 
 </head>
 
 <body>
 
+    <div class="header">
+
         <a href="index.html"><img class="logo" src="img/Logo.png"></a>
 
         <a href="loja.html" class="loja-text">Conheça Nossa Loja</a>
 
+    </div>
+
     <div class="login-container">
+
+        <p class="vazios" id="vazio"></p>
 
         <p>Cadastro</p>
 
         <div class="input-box">
 
-            <input class="text" type="text" placeholder="Endereço de Email" </div>
+            <input class="text" type="text" id="usuario" placeholder="Nome de Usuário">
 
-            <input class="password" type="password" placeholder="Senha" </div>
+            <input class="password" type="password" id="senha" placeholder="Senha">
 
-            <input class="confirm-password" type="password" placeholder="Confirmar Senha"></input>
+            <input class="confirm-password" type="password" id="confirmarSenha" placeholder="Confirmar Senha"></input>
 
-            <a href="login.html" class="botao">Confirmar</a>
+            <button onclick="Registrar()" class="botao">Confirmar</button>
+
+            <p class="resultado" id="resultado"></p>
+
+        </div>
+
+    </div>
 
 
 </body>

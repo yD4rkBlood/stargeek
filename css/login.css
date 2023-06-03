@@ -19,11 +19,12 @@
     }
 
     .header>.loja-text {
-        font-size: 30px;
+        font-size: 25px;
+        margin-top: 10px;
     }
 
-    .header>.logo {
-        width: 20px;
+    .header>a>.logo {
+        width: 110px;
     }
 
     .login-container>.input-box>input {
@@ -44,7 +45,7 @@
     }
 
     .header>.loja-text {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .header>.logo {
@@ -53,10 +54,10 @@
 }
 
 body {
-    background-image: url(../img/Purple\ galaxy\ dark.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url(../img/minimalist\ purple\ background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .loja-text {
@@ -67,7 +68,7 @@ body {
     background-clip: text;
     text-shadow: black;
     font-size: 35px;
-    margin-top: 2vw;
+    margin-top: 40px;
 }
 
 .loja-text:hover {
@@ -83,8 +84,7 @@ body {
     box-sizing: border-box;
     position: absolute;
     width: 458px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, rgba(255, 0, 245, 0.6) 0%, rgba(215, 0, 250, 0.6) 80.08%, rgba(143, 0, 255, 0.6) 100%);
-    border: 1px solid #f700ff93;
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -115,30 +115,16 @@ body {
     width: 317px;
     height: 72px;
     margin: 0 auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
     border: 0;
+    border-bottom: 3px solid #ffffff;
     margin-bottom: 30px;
-}
-
-.input-box>.password {
-    width: 317px;
-    height: 72px;
-    margin: 0 auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    border-radius: 10px;
-    border: 0;
-    margin-bottom: 15px;
-}
-
-.input-box>.password:hover {
-    transition: 300ms;
-    transform: scale(1.05);
+    background-color: #d900fa00;
 }
 
 ::placeholder {
     color: white;
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     text-shadow: 1px 1px 1px black;
 }
@@ -193,9 +179,11 @@ body {
     height: 47px;
     margin: 0 auto;
     margin-top: 60px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
+    background-color: #9000ff00;
     border-radius: 10px;
     border: 0;
+    border: 2px solid white;
+    text-shadow: 1px 1px 1px black;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -237,6 +225,7 @@ input:focus {
     color: rgb(255, 38, 38);
     font-size: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .resultado {

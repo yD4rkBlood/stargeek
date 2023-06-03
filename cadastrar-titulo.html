@@ -26,7 +26,9 @@
 
     <div class="login-container">
 
-        <p>Cadastre Um Título</p>
+        <p class="vazios" id="vazio"></p>
+
+        <p class="cadastre">Cadastre Um Título</p>
 
         <main>
 
@@ -34,7 +36,7 @@
 
                 <p>Nome do Título</p>
 
-                <input class="text" id="nome" type="text">
+                <input class="text" id="titulo" type="text">
 
                 <p>Resumo</p>
 
@@ -44,7 +46,13 @@
 
                 <input class="text" type="text" id="imagem">
 
-                <button onclick="AdicionarMidia()" class="botao">Confirmar</button>
+                <div class="voltar">
+
+                    <a href="catalogo.html">Cadastrar</a>
+    
+                </div>
+
+                <button onclick="adicionarMidia()" class="botao">Confirmar</button>
 
             </div>
 

@@ -109,12 +109,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
-    background-image: url(../img/Purple\ galaxy\ dark.jpg);
+    background-image: url(../img/minimalist\ purple\ background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-}
+  }
 
 .loja-text {
     position: absolute;
@@ -209,8 +208,8 @@ body {
     height: 60px;
     margin: 0 auto;
     border-radius: 10px;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border: 0;
+    border: 2px solid white;
     color: white;
     font-size: 1.5em;
     margin-right: 60px;
@@ -229,11 +228,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px;
+    width: 170px;
     height: 60px;
     border-radius: 10px;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border: 0;
+    border: 2px solid white;
     color: white;
     font-size: 1.6em;
     text-shadow: 1px 1px 1px black;
@@ -302,7 +301,7 @@ hr {
     width: 100%;
     border: 0;
     height: 0.5vh;
-    background: rgb(248, 0, 232);
-    background: linear-gradient(90deg, rgba(248, 0, 232, 0.1516981792717087) 0%, rgba(166, 0, 255, 1) 50%, rgba(255, 0, 232, 0.14889705882352944) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.152) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.149) 100%);
     margin-bottom: 10vh;
 }

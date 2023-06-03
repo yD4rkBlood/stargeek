@@ -26,7 +26,7 @@ function Confirmar() {
   resultado.innerHTML = "";
 
   if (encontrado) {
-    resultado.innerHTML = `<p class='bem-vindo'>Bem-vindo, Clique em <a class="catalog" href="catalogo.html">Catálogo</a> para entrar no Catálogo</p>`;
+    resultado.innerHTML = `<p class='bem-vindo'>Bem-vindo, Clique em <a class="catalog" href="catalogo.html">Catálogo</a> para entrar</p>`;
   } else {
     resultado.innerHTML = "<p class='errado'>Usuário ou senha incorretos</p>";
   }

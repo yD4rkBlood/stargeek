@@ -18,12 +18,29 @@
         margin-top: 80px;
     }
 
+    .login-container>.vazios {
+        margin-bottom: 0px;
+    }
+
+    .login-container>.cadastro {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .header>.loja-text {
+        font-size: 30px;
+    }
+
+    .input-box>::placeholder {
+        font-size: 20px;
+    }
+
     body>.header>.loja-text {
         font-size: 25px;
     }
 
     .header>a>.logo {
-        width: 150px;
+        width: 110px;
     }
 
     .login-container>.input-box>input {
@@ -57,10 +74,16 @@
     .header>.loja-text {
         font-size: 20px;
     }
+
+    .input-box>.botao {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
 
 body {
-    background-image: url(../img/Purple\ galaxy\ dark.jpg);
+    background-image: url(../img/minimalist\ purple\ background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -83,11 +106,10 @@ body {
 }
 
 .login-container {
-    box-sizing: border-box;
-    position: absolute;
-    width: 480px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, rgba(255, 0, 245, 0.6) 0%, rgba(215, 0, 250, 0.6) 80.08%, rgba(143, 0, 255, 0.6) 100%);
-    border: 1px solid #f700ff93;
+    display: flex;
+    flex-direction: column;
+    width: 458px;
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 25px;
     position: absolute;
     top: 50%;
@@ -101,7 +123,7 @@ body {
     margin-top: 15px;
     margin-bottom: 40px;
     font-size: 48px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .input-box {
@@ -113,30 +135,16 @@ body {
     width: 317px;
     height: 72px;
     margin: 0 auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
     border-radius: 10px;
     border: 0;
-    margin-bottom: 15px;
-}
-
-.input-box>.password {
-    width: 317px;
-    height: 72px;
-    margin: 0 auto;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    border-radius: 10px;
-    border: 0;
-    margin-bottom: 15px;
-}
-
-.input-box>.password:hover {
-    transition: 300ms;
-    transform: scale(1.05);
+    border-bottom: 3px solid #ffffff;
+    margin-bottom: 30px;
+    background-color: #d900fa00;
 }
 
 ::placeholder {
     color: white;
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     text-shadow: 1px 1px 1px black;
 }
@@ -171,11 +179,24 @@ body {
 }
 
 
+.lembre {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    float: left;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.lembre>a:hover {
+    text-decoration: underline;
+}
+
 .lembre>a {
     text-decoration: none;
     color: white;
     float: right;
-    margin-left: 120px;
+    margin: 0 auto;
 }
 
 .confirm-password {
@@ -197,17 +218,19 @@ body {
     width: 200px;
     height: 47px;
     margin: 0 auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
+    margin-top: 60px;
+    background-color: #9000ff00;
     border-radius: 10px;
     border: 0;
+    border: 2px solid white;
+    text-shadow: 1px 1px 1px black;
     color: white;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     justify-content: center;
     line-height: 47px;
+    margin-bottom: 30px;
 }
 
 .botao:hover {
@@ -215,13 +238,14 @@ body {
     transform: scale(1.1);
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
     color: #ffffff;
     font-size: 20px;
     padding-left: 10px;
 }
 
-.login-container> .vazios {
+.login-container>.vazios {
     font-size: 20px;
 }
 
@@ -229,6 +253,7 @@ textarea:focus, input:focus {
     color: rgb(255, 38, 38);
     font-size: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .resultado {
@@ -244,7 +269,7 @@ textarea:focus, input:focus {
     text-decoration: none;
 }
 
-.login:hover{
+.login:hover {
     text-decoration: underline;
 }
 

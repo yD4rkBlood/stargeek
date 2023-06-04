@@ -117,8 +117,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    width: 100%;
-    background-position: 0%, 0%, 50%, 50%;
+    height: 100%;
 }
 
 .loja-text {

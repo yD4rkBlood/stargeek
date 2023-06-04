@@ -7,6 +7,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
+@media screen and (max-width: 1024px) {
+    html>body {
+        background-image: url(../img/minimalist\ purple\ background\ phone.jpg);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header>.loja-text {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    body>.login-container {
+        margin-left: 15vw;
+    }
+}
+
 @media screen and (max-width: 780px) {
     body {
         display: flex;
@@ -15,11 +33,12 @@
 
     body>.login-container {
         width: 370px;
-        margin-top: 80px;
+        margin: 0;
+        margin-top: 60px;
     }
 
     body>.login-container>.cadastre {
-        font-size: 37px;
+        font-size: 30px;
         margin-bottom: 25px;
         margin-top: 25px;
     }
@@ -29,12 +48,13 @@
     }
 
     main>.input-box>.text {
-        height: 60px;
+        height: 50px;
     }
 
     .header>.loja-text {
         font-size: 25px;
         margin-top: 10px;
+        display: inline-block;
     }
 
     .header>a>.logo {
@@ -46,12 +66,15 @@
     }
 
     .input-box>.botao {
+        width: 120px;
+        height: 48px;
+        font-size: 17px;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .input-box>textarea {
-        height: 60px;
+        height: 50px;
     }
 
 }
@@ -59,6 +82,11 @@
 @media screen and (max-width: 300px) {
     body>.login-container {
         width: 276px;
+        margin-top: 60px;
+    }
+
+    body>.login-container>.cadastre {
+        font-size: 25px;
     }
 
     .header>.loja-text {
@@ -71,11 +99,24 @@
 
     main>.input-box>.text {
         width: 250px;
+        height: 45px;
     }
 
     .login-container>main {
         max-width: 250px;
     }
+
+    .input-box>.botao {
+        width: 100px;
+        height: 48px;
+        font-size: 17px;
+    }
+
+    .input-box>textarea {
+        width: 250px;
+        height: 48px;
+    }
+
 }
 
 body {
@@ -108,9 +149,7 @@ body {
     float: left;
     text-shadow: 1px 1px 1px black;
     text-align: center;
-    text-align: center;
     margin: 0 auto;
-
 }
 
 .catalogo {
@@ -155,6 +194,7 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     border: 0;
+    border-right: 3px solid white;
     border-bottom: 3px solid #ffffff;
     margin-bottom: 30px;
     background-color: #d900fa00;
@@ -164,6 +204,7 @@ body {
     color: rgb(255, 38, 38);
     font-size: 20px;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
     margin-top: 20px;
     text-align: center;
 }
@@ -183,13 +224,6 @@ body {
 .text:hover {
     transition: 300ms;
     transform: scale(1.05);
-}
-
-.text2 {
-    color: white;
-    font-size: 23px;
-    text-shadow: 1px 1px 1px black;
-    padding-left: t 10px;
 }
 
 .lembre>a {
@@ -255,8 +289,9 @@ textarea {
     height: 7vw;
     margin-bottom: 30px;
     background-color: #9000ff00;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 0;
+    border-right: 3px solid white;
     border-bottom: 3px solid #ffffff;
     color: white;
     font-size: 20px;

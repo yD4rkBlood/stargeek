@@ -8,46 +8,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 @media screen and (max-width: 780px) {
-    body {
+    html>body {
+        background-image: url(../img/minimalist\ purple\ background\ phone.jpg);
         display: flex;
         flex-direction: column;
     }
 
-    body>.login-container {
+    body > .login-container {
         width: 370px;
         margin-top: 80px;
     }
 
-    .login-container>.vazios {
+    .login-container > .vazios {
         margin-bottom: 0px;
     }
 
-    .login-container>.cadastro {
+    .login-container > .cadastro {
         margin: 0;
         margin-bottom: 20px;
     }
 
-    .header>.loja-text {
+    .header > .loja-text {
         font-size: 30px;
     }
 
-    .input-box>::placeholder {
+    .input-box > ::placeholder {
         font-size: 20px;
     }
 
-    body>.header>.loja-text {
+    body > .header > .loja-text {
         font-size: 25px;
     }
 
-    .header>a>.logo {
+    .header > a > .logo {
         width: 110px;
     }
 
-    .login-container>.input-box>input {
+    .login-container > .input-box > input {
         width: 70%;
     }
 
-    .input-box>.lembre {
+    .input-box > .lembre {
         text-align: center;
         margin: 0 auto;
     }
@@ -55,27 +56,27 @@
 }
 
 @media screen and (max-width: 400px) {
-    body>.login-container {
-        width: 370px;
+    body > .login-container {
+        width: 350px;
         margin-top: 80px;
     }
 
-    .header>.loja-text {
+    .header > .loja-text {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width: 300px) {
-    body>.login-container {
+@media screen and (max-width: 350px) {
+    body > .login-container {
         width: 270px;
         margin-top: 80px;
     }
 
-    .header>.loja-text {
+    .header > .loja-text {
         font-size: 20px;
     }
 
-    .input-box>.botao {
+    .input-box > .botao {
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -117,7 +118,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.login-container>p {
+.login-container > p {
     color: white;
     text-align: center;
     margin-top: 15px;
@@ -131,13 +132,14 @@ body {
     flex-direction: column;
 }
 
-.input-box>.text {
+.input-box > .text {
     width: 317px;
     height: 72px;
     margin: 0 auto;
     border-radius: 10px;
     border: 0;
-    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
     margin-bottom: 30px;
     background-color: #d900fa00;
 }
@@ -188,11 +190,11 @@ body {
     text-align: center;
 }
 
-.lembre>a:hover {
+.lembre > a:hover {
     text-decoration: underline;
 }
 
-.lembre>a {
+.lembre > a {
     text-decoration: none;
     color: white;
     float: right;
@@ -245,7 +247,7 @@ input:focus {
     padding-left: 10px;
 }
 
-.login-container>.vazios {
+.login-container > .vazios {
     font-size: 20px;
 }
 

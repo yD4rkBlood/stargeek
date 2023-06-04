@@ -8,13 +8,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 @media screen and (max-width: 780px) {
-    body {
+    html>body {
+        background-image: url(../img/minimalist\ purple\ background\ phone.jpg);
         display: flex;
         flex-direction: column;
     }
 
     body>.login-container {
-        width: 370px;
+        width: 360px;
         margin-top: 80px;
     }
 
@@ -35,7 +36,6 @@
         text-align: center;
         margin: 0 auto;
     }
-
 }
 
 @media screen and (max-width: 300px) {
@@ -54,10 +54,10 @@
 }
 
 body {
-  background-image: url(../img/minimalist\ purple\ background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-image: url(../img/minimalist\ purple\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .loja-text {
@@ -117,6 +117,7 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     border: 0;
+    border-right: 3px solid white;
     border-bottom: 3px solid #ffffff;
     margin-bottom: 30px;
     background-color: #d900fa00;

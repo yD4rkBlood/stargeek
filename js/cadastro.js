@@ -19,7 +19,12 @@ function Registrar() {
     var podeAcessar = validarRegistro(usuario, senha, confirmarSenha);
 
     if (!podeAcessar) {
-        document.getElementById('vazio').innerHTML = "<p class='vazio'>Usuario, Senha e Confirmar Senha não podem estar vazios</p>";
+        document.getElementById('vazio').innerHTML = "<p class='vazio'>Usuário, Senha e Confirmar Senha não podem estar vazios</p>";
+        return;
+    }
+
+    if (senha !== confirmarSenha) {
+        document.getElementById('vazio').innerHTML = "<p class='vazio'>Senha e Confirmar Senha não são iguais</p>";
         return;
     }
 
@@ -34,6 +39,7 @@ function Registrar() {
 
     usuariosRegistrados()
 }
+
 
 function validarRegistro(usuario, senha, confirmarSenha) {
     return usuario !== '' && senha !== '' && confirmarSenha !== '';

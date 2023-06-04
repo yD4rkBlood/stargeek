@@ -6,8 +6,16 @@
 }
 
 @media (max-width: 1024px) {
+    html>body {
+        background-image: url(../img/minimalist\ purple\ background\ phone.jpg);
+    }
+
     header {
         margin-bottom: 35vw;
+    }
+
+    main>.content-text {
+        font-size: 5vw;
     }
 
     header>.top-text>.botao {
@@ -29,25 +37,21 @@
         font-size: 4vw
     }
 
-    header>.davy {
+    header>.pfp {
         width: 18vw;
         height: 18vw;
         margin-top: 15vw;
         margin-right: 20vw;
-    }
-
-    main>hr {
-        height: 0.4vw;
     }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body {
-    background-image: url(../img/Purple\ galaxy\ dark.jpg);
+    background-image: url(../img/minimalist\ purple\ background.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -75,8 +79,8 @@ header {
     transform: scale(1.1);
 }
 
-.davy {
-    background-image: url(../img/davyjones.jpg);
+.pfp {
+    background-image: url(../img/caio\ pfp.png);
     width: 6vw;
     height: 6vw;
     background-size: cover;
@@ -114,16 +118,16 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 220px;
+    width: 160px;
     height: 60px;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    border: 0;
-    color: white;
-    float: right;
-    text-shadow: 1px 1px 1px black;
-    text-decoration: none;
     margin: 0 auto;
+    border-radius: 10px;
+    border: 0;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    float: right;
+    text-decoration: none;
 }
 
 .botao:hover {
@@ -146,14 +150,6 @@ header {
     margin-right: 3vw;
     margin-top: 2vw;
     font-size: 25px;
-}
-
-.content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    overflow-x: auto;
-    margin-top: 20px;
 }
 
 .content>img {
@@ -180,16 +176,55 @@ main {
     margin: 0 auto;
 }
 
-::-webkit-scrollbar {
-    display: none;
+hr {
+    width: 100%;
+    border: 0;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.152) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.149) 100%);
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
-hr {
-    border: 0;
-    width: 91vw;
-    height: 0.2vw;
-    background: rgb(248, 0, 232);
-    background: linear-gradient(90deg, rgba(248, 0, 232, 0.1516981792717087) 0%, rgba(166, 0, 255, 1) 50%, rgba(255, 0, 232, 0.14889705882352944) 100%);
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #FF00F5 #8F00FF;
+}
+
+.content::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 20px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: #ffffff00;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #ffffff81;
+    border-radius: 5px;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background-color: #f8f8f8c2;
+}
+
+.content>img {
+    margin-left: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.content>img:hover {
+    transition: 300ms;
+    transform: scale(1.05);
 }

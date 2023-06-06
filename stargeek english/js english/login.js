@@ -26,7 +26,7 @@ function Confirmar() {
   resultado.innerHTML = "";
 
   if (encontrado) {
-    resultado.innerHTML = `<p class='bem-vindo'>Welcome, Click on <a class="catalog" href="/stargeek english/catalog.html">Catalog</a> to enter</p>`;
+    resultado.innerHTML = `<p class='bem-vindo'>Welcome, Click on <a class="catalog" href="catalog.html">Catalog</a> to enter</p>`;
   } else {
     resultado.innerHTML = "<p class='errado'>User or password incorrect</p>";
   }

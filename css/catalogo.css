@@ -22,7 +22,8 @@
         width: 30vw;
         height: 15vw;
         font-size: 5vw;
-        margin-top: 15vw;
+        margin-top: 2.9vw;
+     
     }
 
     header>a>.logo {
@@ -30,18 +31,21 @@
     }
 
     header>.top-text>p {
-        font-size: 4vw
+        font-size: 4vw;
     }
 
     header>.pfp {
         width: 18vw;
         height: 18vw;
-        margin-top: 15vw;
         margin-right: 20vw;
     }
 
     ::-webkit-scrollbar {
         display: none;
+    }
+
+    main > hr {
+        margin-top: 20px
     }
 }
 

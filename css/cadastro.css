@@ -28,16 +28,8 @@
         margin-bottom: 20px;
     }
 
-    .header > .loja-text {
-        font-size: 30px;
-    }
-
     .input-box > ::placeholder {
         font-size: 20px;
-    }
-
-    body > .header > .loja-text {
-        font-size: 25px;
     }
 
     .header > a > .logo {
@@ -60,20 +52,12 @@
         width: 350px;
         margin-top: 80px;
     }
-
-    .header > .loja-text {
-        font-size: 20px;
-    }
 }
 
 @media screen and (max-width: 350px) {
     body > .login-container {
         width: 270px;
         margin-top: 80px;
-    }
-
-    .header > .loja-text {
-        font-size: 20px;
     }
 
     .input-box > .botao {
@@ -88,22 +72,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.loja-text {
-    position: absolute;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: black;
-    font-size: 35px;
-    margin-top: 2vw;
-}
-
-.loja-text:hover {
-    transition: 300ms;
-    transform: scale(1.05);
 }
 
 .login-container {

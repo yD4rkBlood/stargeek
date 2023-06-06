@@ -14,12 +14,6 @@
         flex-direction: column;
     }
 
-    .header>.loja-text {
-        display: flex;
-        flex-direction: column;
-        font-size: 30px;
-    }
-
     body>.login-container {
         margin-left: 15vw;
     }
@@ -49,12 +43,6 @@
 
     main>.input-box>.text {
         height: 50px;
-    }
-
-    .header>.loja-text {
-        font-size: 25px;
-        margin-top: 10px;
-        display: inline-block;
     }
 
     .header>a>.logo {
@@ -89,10 +77,6 @@
         font-size: 25px;
     }
 
-    .header>.loja-text {
-        font-size: 25px;
-    }
-
     .header>.logo {
         width: 10px;
     }
@@ -124,22 +108,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.loja-text {
-    position: absolute;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: black;
-    font-size: 35px;
-    margin-top: 40px;
-}
-
-.loja-text:hover {
-    transition: 300ms;
-    transform: scale(1.05);
 }
 
 .voltar {

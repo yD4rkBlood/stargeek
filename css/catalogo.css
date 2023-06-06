@@ -25,10 +25,6 @@
         margin-top: 15vw;
     }
 
-    header>.loja-text {
-        font-size: 6vw;
-    }
-
     header>a>.logo {
         width: 25vw;
     }
@@ -42,6 +38,10 @@
         height: 18vw;
         margin-top: 15vw;
         margin-right: 20vw;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
     }
 }
 
@@ -61,22 +61,6 @@ header {
 .logo {
     float: left;
     width: 12vw;
-}
-
-.loja-text {
-    position: absolute;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: black;
-    font-size: 35px;
-    margin-top: 2vw;
-}
-
-.loja-text:hover {
-    transition: 300ms;
-    transform: scale(1.1);
 }
 
 .pfp {

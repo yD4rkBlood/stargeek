@@ -8,6 +8,7 @@
 @media screen and (max-width: 1024px) {
     html>body {
         background-image: url(../img/minimalist\ purple\ background\ phone.jpg);
+        background-attachment: fixed;
     }
 
     body>.back1 {
@@ -36,6 +37,8 @@
 
     .back1>.botao {
         margin: 0;
+        margin-bottom: 8vw;
+        margin-top: 8vw;
     }
 
     .container2>.email {
@@ -43,7 +46,7 @@
     }
 
     .back1>.logo {
-        margin-top: 80px;
+        margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 20px;
     }
@@ -70,15 +73,16 @@
         width: 50%;
     }
 
-    .back1>.back-text1 {
+    .flex>.back-text1 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .flex>.back-text2 {
         font-size: 40px;
     }
 
-    .back1>.back-text2 {
-        font-size: 40px;
-    }
-
-    .back1>.back-text3 {
+    .flex>.back-text3 {
         font-size: 20px;
     }
 
@@ -117,23 +121,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100vh;
-}
-
-.loja-text {
-    position: absolute;
-    background: linear-gradient(180deg, #FF00F5 0%, #D700FA 52.08%, #8F00FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: black;
-    font-size: 35px;
-    margin-top: 2vw;
-}
-
-.loja-text:hover {
-    transition: 300ms;
-    transform: scale(1.1);
 }
 
 .center {
@@ -158,10 +145,6 @@ body {
     float: left;
 }
 
-.back1 {
-    height: 100%;
-}
-
 .back-text1 {
     color: white;
     font-size: 4em;
@@ -182,11 +165,6 @@ body {
     text-shadow: 1px 1px 1px black;
 }
 
-.back2 {
-    height: 100%;
-    margin-bottom: 60px;
-}
-
 .back-text4 {
     color: white;
     font-size: 4em;
@@ -197,11 +175,6 @@ body {
     color: white;
     font-size: 1.7em;
     text-shadow: 1px 1px 1px black;
-}
-
-.back3 {
-    height: 100%;
-    margin-bottom: 60px;
 }
 
 .botao {
@@ -219,7 +192,6 @@ body {
     font-size: 1.5em;
     margin-right: 60px;
     float: right;
-    margin-top: 2vh;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
 }
@@ -296,6 +268,24 @@ body {
     float: right;
 }
 
+.lingua {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    margin-left: 1vw;
+    padding-top: 20px;
+}
+
+.lingua:hover {
+    text-decoration: underline;
+}
+
+.bandeira {
+    width: 30px;
+    margin-right: 15px;
+}
+
 .catalogos {
     margin-top: 60px;
     flex-direction: row;
@@ -309,4 +299,14 @@ hr {
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.152) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.149) 100%);
     margin-bottom: 10vh;
+}
+
+.logo {
+    float: left;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
 }

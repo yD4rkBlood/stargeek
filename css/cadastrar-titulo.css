@@ -37,7 +37,7 @@
     }
 
     body>.login-container>.cadastre {
-        font-size: 30px;
+        font-size: 27px;
         margin-bottom: 25px;
         margin-top: 25px;
     }
@@ -145,10 +145,10 @@ body {
 .cadastre {
     color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 35px;
     text-align: center;
-    font-size: 48px;
+    font-size: 40px;
     text-shadow: 1px 1px 1px black;
 }
 
@@ -254,7 +254,7 @@ main {
 textarea {
     resize: none;
     width: 100%;
-    height: 7vw;
+    height: 6vw;
     margin-bottom: 30px;
     background-color: #9000ff00;
     border-radius: 10px;

@@ -20,13 +20,18 @@
 }
 
 @media screen and (max-width: 780px) {
+
+    body>.header{
+        margin: 0 auto;
+    }
+
     body {
         display: flex;
         flex-direction: column;
     }
 
     body>.login-container {
-        width: 370px;
+        width: 360px;
         margin: 0;
         margin-top: 60px;
     }
@@ -46,7 +51,7 @@
     }
 
     .header>a>.logo {
-        width: 110px;
+        width: 130px;
     }
 
     .login-container>.input-box>input {
@@ -75,10 +80,6 @@
 
     body>.login-container>.cadastre {
         font-size: 25px;
-    }
-
-    .header>.logo {
-        width: 10px;
     }
 
     main>.input-box>.text {
@@ -162,7 +163,6 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     border: 0;
-    border-right: 3px solid white;
     border-bottom: 3px solid #ffffff;
     margin-bottom: 30px;
     background-color: #d900fa00;
@@ -205,7 +205,7 @@ body {
     width: 200px;
     height: 47px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 20px;
     background-color: #9000ff00;
     border-radius: 10px;
     border: 0;
@@ -259,7 +259,6 @@ textarea {
     background-color: #9000ff00;
     border-radius: 10px;
     border: 0;
-    border-right: 3px solid white;
     border-bottom: 3px solid #ffffff;
     color: white;
     font-size: 20px;

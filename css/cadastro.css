@@ -19,6 +19,10 @@
         margin-top: 80px;
     }
 
+    body>.header{
+        margin: 0 auto;
+    }
+
     .login-container > .vazios {
         margin-bottom: 0px;
     }
@@ -33,7 +37,7 @@
     }
 
     .header > a > .logo {
-        width: 110px;
+        width: 150px;
     }
 
     .login-container > .input-box > input {
@@ -92,7 +96,7 @@ body {
     margin-top: 15px;
     margin-bottom: 40px;
     font-size: 48px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
 }
 
 .input-box {
@@ -106,7 +110,6 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     border: 0;
-    border-right: 3px solid white;
     border-bottom: 3px solid white;
     margin-bottom: 30px;
     background-color: #d900fa00;

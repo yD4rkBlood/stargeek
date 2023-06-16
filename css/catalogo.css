@@ -22,7 +22,7 @@
         width: 30vw;
         height: 15vw;
         font-size: 5vw;
-        margin-top: 15vw;
+        margin-top: 2.5vw;
     }
 
     header>a>.logo {
@@ -43,6 +43,13 @@
         display: none;
     }
 }
+
+@media (max-width: 350px) {
+a>.logo {
+    width: 36vw;
+}
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 

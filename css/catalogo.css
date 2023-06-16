@@ -19,9 +19,18 @@
     }
 
     header>.top-text>.botao {
-        width: 140px;
-        height: 70px;
-        font-size: 23px;
+        width: 30vw;
+        height: 15vw;
+        font-size: 5vw;
+        margin-top: 15vw;
+    }
+
+    header>a>.logo {
+        width: 25vw;
+    }
+
+    header>.top-text>p {
+        font-size: 4vw
     }
 
     header>.pfp {
@@ -32,34 +41,6 @@
 
     ::-webkit-scrollbar {
         display: none;
-    }
-
-    .content>.img-resultado {
-        width: 100px;
-    }
-}
-
-@media (max-width: 400px) {
-    header>.top-text>.botao {
-        width: 120px;
-        height: 60px;
-        font-size: 20px;
-    }
-
-    .top-left>a>.logo {
-        width: 120px
-    }
-
-    header>.top-text>.pfp {
-        width: 70px;
-        height: 70px;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    header>.top-text {
-        display: flex;
-        flex-direction: column
     }
 }
 
